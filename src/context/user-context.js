@@ -4,8 +4,8 @@ import {useAuth} from './auth-context'
 const UserContext = React.createContext()
 
 function UserProvider(props) {
-  const {user, userLocalStorageKey} = useAuth();
-  return <UserContext.Provider value={{user, userLocalStorageKey}} {...props} />
+  const {user} = useAuth();
+  return <UserContext.Provider value={{user}} {...props} />
 }
 
 function useUser() {

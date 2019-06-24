@@ -1,0 +1,76 @@
+.login-container {
+  background-image: linear-gradient(122deg, #317bda, #33c3c8);
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.login-container__body {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+.login-container__footer {
+  position: absolute;
+  bottom: 0;
+  height: 49px;
+  width: 100%;
+  border-top: 1px solid #fff;
+  text-align: center;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 49px;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.login-container__form-container {
+  width: 350px;
+  height: 332px;
+}
+
+.login-container__form {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 #d4dce2;
+  background-color: #ffffff;
+}
+
+.login-container__form-title {
+  height: 28px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5b7289;
+}
+
+.login-container__signup {
+  width: 350px;
+  height: 45px;
+  border: 1px solid #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+}

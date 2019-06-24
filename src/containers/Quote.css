@@ -1,0 +1,43 @@
+.quote-request {
+  position: fixed;
+  background: url('./car-background.png') center center no-repeat;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  height: 0;
+}
+
+.quote-request::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(122deg, #317bda, #33c3c8);
+  opacity: 0.7;
+  z-index: -2;
+}
+
+.quote-request__form {
+  width: 935px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.quote-details {
+  position: fixed;
+  background: url('./background-travel.svg') top no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #ffffff;
+}

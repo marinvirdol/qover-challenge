@@ -1,5 +1,8 @@
-function login({email, password}) {
+const localStorageKey = '__user__'
+
+function login({email, password, rememberMe}) {
   const handleUserResponse = (email) => {
+    if (rememberMe) window.localStorage.setItem(localStorageKey, email)
     return email;
   }
 
@@ -8,7 +11,12 @@ function login({email, password}) {
 }
 
 function logout() {
+  window.localStorage.removeItem(localStorageKey)
   return Promise.resolve();
 }
 
-export {login, logout}
+function getUser() {
+  return window.localStorage.getItem(localStorageKey)
+}
+
+export {login, logout, getUser}

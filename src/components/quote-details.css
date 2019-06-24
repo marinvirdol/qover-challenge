@@ -1,0 +1,122 @@
+.quote-details__name {
+  padding: 40px 0px;
+  font-family: MuseoSans;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.quote-details__select-subscription-type {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 670px;
+}
+
+.quote-details__card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quote-details__card {
+  max-width: 360px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.quote-details__card-header {
+  padding: 20px;
+  border-bottom: solid 1px rgb(91,114,137, 0.1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.quote-details__card-price {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px rgb(91,114,137, 0.1);
+  padding: 20px;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.quote-details__card-features {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border-bottom: solid 1px rgb(91,114,137, 0.1);
+  border-top: solid 1px rgb(91,114,137, 0.1);
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+}
+
+.quote-details__button {
+  width: 100%;
+  color: #fff;
+  background-color: #31cfda;
+  height: 50px;
+  font-family: MuseoSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.quote-details__button--selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-details__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

@@ -4,10 +4,12 @@ import * as authClient from '../utils/auth-client'
 const AuthContext = React.createContext();
 
 function AuthProvider(props) {
-  const [user, setUser] = React.useState(null);
+  const [user, setUser] = React.useState(authClient.getUser())
 
   const login = form => authClient.login(form).then(u => setUser(u))
-  const logout = () => authClient.logout().then(u => setUser(u));
+  const logout = () => authClient.logout().then(u => {
+    setUser(u)
+  });
 
   return (
     <AuthContext.Provider
